@@ -24,6 +24,7 @@ This project demonstrates a complete **CI/CD pipeline** setup for a containerize
 - ✅ Deploys to Kubernetes cluster
 - ✅ Easily extendable with Helm Chart
 
+---
 
 ## Quick Start
 ```
@@ -31,25 +32,27 @@ This project demonstrates a complete **CI/CD pipeline** setup for a containerize
 git clone https://github.com/ahmad0303/CICD-Pipeline-for-a-Web-App.git
 
 # Go inside the directory
-cd simple-react-full-stack
+cd CICD-Pipeline-for-a-Web-App
 
 # Install dependencies
-yarn (or npm install)
+npm install
 
 # Start development server
-yarn dev (or npm run dev)
+npm run dev
 
 # Build for production
-yarn build (or npm run build)
+npm run build
 
 # Start production server
-yarn start (or npm start)
+npm start
 ```
+---
 
 ## Local Docker Test
-```docker build -t cicd-project-reactapp-image .```
-```docker run -p 8080:8080 cicd-project-reactapp-image```
+```docker build -t cicd-project-reactapp-image .
+docker run -p 8080:8080 cicd-project-reactapp-image```
 
+---
 
 ## 🚀 Deploy with Helm
 
@@ -62,6 +65,7 @@ yarn start (or npm start)
 3. Uninstall:
 ```helm uninstall cicdproj-chart```
 
+---
 
 ## 🔐 GitHub Actions CI/CD
 You can automate the build & deployment process using a .github/workflows/deploy.yml file.
@@ -76,5 +80,6 @@ Build Docker image
 Push to DockerHub
 Deploy to K8s using Helm
 
+---
 
 ## Leave a ⭐ on the repo if you found this helpful!
