@@ -73,8 +73,8 @@ docker run -p 8080:8080 cicd-project-reactapp-image
 You can automate the build & deployment process using a .github/workflows/deploy.yml file.
 
 Set GitHub Secrets:
-DOCKER_USERNAME
-DOCKER_PASSWORD
+- DOCKER_USERNAME
+- DOCKER_PASSWORD
 
 ### Workflow Steps:
 Checkout code
