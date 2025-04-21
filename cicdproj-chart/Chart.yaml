@@ -1,0 +1,6 @@
+apiVersion: v2
+name: cicdproj-chart
+description: A Helm chart for Node.js Dockerized Application
+type: application
+version: 0.1.0
+appVersion: "1.0"

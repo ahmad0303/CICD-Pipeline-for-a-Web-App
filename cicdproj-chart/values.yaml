@@ -1,0 +1,13 @@
+replicaCount: 2
+
+image:
+  repository: ahmad0303/cicd-project-reactapp-image:latest
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  type: LoadBalancer
+  port: 80
+  targetPort: 8080
+
+containerPort: 8080
