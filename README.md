@@ -49,8 +49,10 @@ npm start
 ---
 
 ## Local Docker Test
-```docker build -t cicd-project-reactapp-image .
-docker run -p 8080:8080 cicd-project-reactapp-image```
+```
+docker build -t cicd-project-reactapp-image .
+docker run -p 8080:8080 cicd-project-reactapp-image
+```
 
 ---
 
