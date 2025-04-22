@@ -77,10 +77,10 @@ Set GitHub Secrets:
 - DOCKER_PASSWORD
 
 ### Workflow Steps:
-Checkout code
-Build Docker image
-Push to DockerHub
-Deploy to K8s using Helm
+Checkout code.
+Build Docker image.
+Push to DockerHub.
+Deploy to K8s using Helm.
 
 ---
 
